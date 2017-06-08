@@ -1,0 +1,12 @@
+body {
+    background-color: White;
+    font-family: 'Roboto', sans-serif;
+}
+
+.examples {
+    list-style-type: none;
+}
+
+code {
+    background-color: WhiteSmoke;
+}
