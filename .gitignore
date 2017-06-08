@@ -1,5 +1,6 @@
 # Cloud9 Settings
 .c9
+mongod
 
 # Logs
 logs
