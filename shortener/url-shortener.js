@@ -37,7 +37,11 @@ function get(req, res) {
     collection.findOne({'short_url': req.params.url}, (err, result) => {
         assert.equal(null, err)
         // console.log('Redirecting to', result.original_url)
-        res.redirect(result.original_url)
+        if(result) {
+            res.redirect(result.original_url)
+        } else {
+            res.json({error: "could not find shortened url"})
+        }
     })
 }
 
