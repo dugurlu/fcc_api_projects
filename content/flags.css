@@ -1,5 +1,5 @@
 /*! * Generated with CSS Flag Sprite generator (https://www.flag-sprites.com/) */
-.flag {    display: inline-block;    width: 16px;    height: 11px;    background: url('flags.png') no-repeat;}
+.flag {    display: inline-block;    width: 16px;    height: 11px;    background: url('https://github.com/dugurlu/fcc_api_projects/raw/master/content/flags.png') no-repeat;}
 .flag.flag-sv {    background-position: -48px -143px;}
 .flag.flag-au {    background-position: -192px 0;}
 .flag.flag-gl {    background-position: -32px -55px;}
